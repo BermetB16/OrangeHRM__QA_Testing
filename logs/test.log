@@ -1,0 +1,49 @@
+2026-04-09 15:30:32 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 15:30:32 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 15:30:32 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 15:30:32 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 15:30:32 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 15:30:32 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 15:30:34 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 15:30:34 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 15:30:45 INFO  com.learnaqa.tests.LoginTest - Testing empty fields validation
+2026-04-09 15:30:47 INFO  com.learnaqa.tests.LoginTest - Empty fields test passed
+2026-04-09 15:30:48 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 15:30:48 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 15:30:49 INFO  com.learnaqa.tests.DashBoardTest - Testing the visibility of header
+2026-04-09 15:30:52 INFO  com.learnaqa.tests.DashBoardTest - The header is visible
+2026-04-09 15:30:59 INFO  com.learnaqa.tests.LoginTest - Testing invalid login - username: Admin
+2026-04-09 15:31:00 INFO  com.learnaqa.tests.PIMTest - Adding employee: Dannie Armstrong
+2026-04-09 15:31:04 INFO  com.learnaqa.tests.AdminTest - checking the header Management's visibility
+2026-04-09 15:31:05 INFO  com.learnaqa.tests.AdminTest - Header Management is visible
+2026-04-09 15:31:05 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 15:31:05 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 15:31:12 INFO  com.learnaqa.tests.LoginTest - Invalid login test passed for username: Admin
+2026-04-09 15:31:12 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 15:31:13 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 15:31:13 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 15:31:13 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 15:31:19 INFO  com.learnaqa.tests.LoginTest - Testing invalid login - username: wronguser
+2026-04-09 15:31:19 INFO  com.learnaqa.tests.DashBoardTest - checking valid title
+2026-04-09 15:31:19 INFO  com.learnaqa.tests.DashBoardTest - The title is valid
+2026-04-09 15:31:22 INFO  com.learnaqa.tests.LoginTest - Invalid login test passed for username: wronguser
+2026-04-09 15:31:23 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 15:31:23 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 15:31:25 INFO  com.learnaqa.tests.LeaveTest - Testing Leave header visibility
+2026-04-09 15:31:26 INFO  com.learnaqa.tests.LeaveTest - Leave header is visible
+2026-04-09 15:31:28 INFO  com.learnaqa.tests.LoginTest - Starting valid login test
+2026-04-09 15:31:31 INFO  com.learnaqa.tests.LoginTest - Valid login test passed
+2026-04-09 15:31:38 INFO  com.learnaqa.tests.PIMTest - Employee Dannie Armstrong added successfully with ID: 56958
+2026-04-09 15:31:56 ERROR com.learnaqa.tests.PIMTest - Failed to delete employee 56958: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-table-body']//div[contains(@class,'oxd-table-row')][contains(.,'56958')]//i[contains(@class,'bi-trash')]/parent::button"}
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5a0dc5342766432cf331258cc2ec0d8, findElement {using=xpath, value=//div[@class='oxd-table-body']//div[contains(@class,'oxd-table-row')][contains(.,'56958')]//i[contains(@class,'bi-trash')]/parent::button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55293}, goog:processID: 29348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55293/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5a0dc5342766432cf331258cc2ec0d8
+2026-04-09 15:31:56 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-09 15:31:56 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-09 15:32:06 INFO  com.learnaqa.tests.PIMTest - Testing PIM header visibility
+2026-04-09 15:32:07 INFO  com.learnaqa.tests.PIMTest - PIM header is visible

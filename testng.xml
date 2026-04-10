@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM Test Suite" verbose="1" parallel="tests" thread-count="4">
+
+    <listeners>
+        <listener class-name="com.learnaqa.utils.ScreenshotUtils"/>
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.learnaqa.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Dashboard Tests">
+        <classes>
+            <class name="com.learnaqa.tests.DashBoardTest"/>
+        </classes>
+    </test>
+
+    <test name="Admin Tests">
+        <classes>
+            <class name="com.learnaqa.tests.AdminTest"/>
+        </classes>
+    </test>
+
+    <test name="PIM Tests">
+        <classes>
+            <class name="com.learnaqa.tests.PIMTest"/>
+        </classes>
+    </test>
+
+    <test name="Leave Tests">
+        <classes>
+            <class name="com.learnaqa.tests.LeaveTest"/>
+        </classes>
+    </test>
+
+</suite>
