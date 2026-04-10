@@ -2,7 +2,7 @@
 # OrangeHRM QA Automation Framework
 
 Automated UI testing framework for [OrangeHRM](https://opensource-demo.orangehrmlive.com/) built with Java, Selenium WebDriver, and TestNG.
-
+[![Run Selenium Tests](https://github.com/BermetB16/OrangeHRM__QA_Testing.git)](https://github.com/BermetB16/QA_Platform_Progect/actions/workflows/test.yml)
 ## Tech Stack
 - Java 17
 - Selenium WebDriver 4.41.0
