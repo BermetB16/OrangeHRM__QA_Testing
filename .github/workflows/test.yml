@@ -1,6 +1,8 @@
 name: Run Selenium Tests
 
 on:
+  schedule:
+    - cron: '0 6 * * *'
   push:
     branches: [ master ]
   pull_request:
@@ -54,3 +56,13 @@ jobs:
         with:
           name: screenshots
           path: screenshots/
+
+      - name: Send failure notification
+        if: failure()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          to: bermet160606@gmail.com
+          from: GitHubActions
+          subject: Tests failed!
+          body: The Selenium tests have failed. Check the Actions log for details.
