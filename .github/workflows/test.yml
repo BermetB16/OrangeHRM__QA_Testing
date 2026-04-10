@@ -2,17 +2,14 @@ name: Run Selenium Tests
 
 on:
   push:
-    on:
-      push:
-        branches: [ master ]      # was [ main, master ]
-      pull_request:
-        branches: [ master ]      # was [ main, master ]
-      workflow_dispatch:
-  workflow_dispatch:  # allows manual trigger
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   test:
-    runs-on: windows-latest  # Chrome works best on Windows
+    runs-on: windows-latest
 
     steps:
       - name: Checkout code
@@ -32,29 +29,26 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
 
       - name: Install Chrome
-        run: |
-          choco install googlechrome -y
+        run: choco install googlechrome -y
         shell: powershell
 
       - name: Run tests
         run: mvn clean test
-
-      - name: Install Allure
-        run: |
-          choco install allure -y
         shell: powershell
 
-      - name: Generate Allure Report
-        run: allure generate allure-results --clean -o allure-report
+      - name: Generate Allure Report using Maven
+        run: mvn allure:report
+        if: always()
+        shell: powershell
 
-      - name: Upload Allure Report as Artifact
+      - name: Upload Allure Report
         uses: actions/upload-artifact@v4
         if: always()
         with:
           name: allure-report
-          path: allure-report/
+          path: target/site/allure-maven-plugin/
 
-      - name: Upload Screenshots as Artifact
+      - name: Upload Screenshots
         uses: actions/upload-artifact@v4
         if: always()
         with:
